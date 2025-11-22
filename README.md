@@ -23,7 +23,7 @@ Este proyecto es el frontend de una aplicación de comercio electrónico desarro
 1. Clona el repositorio:
 
    ```bash
-   git clone https://github.com/tu-usuario/e-commerce-frontend.git](https://github.com/ajliy97/SoftLicenses-CRUD.git
+   git clone https://github.com/ajliy97/SoftLicenses-CRUD.git
    cd frontend
    ```
 
