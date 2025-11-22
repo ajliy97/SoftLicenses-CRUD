@@ -23,8 +23,8 @@ Este proyecto es el frontend de una aplicación de comercio electrónico desarro
 1. Clona el repositorio:
 
    ```bash
-   git clone https://github.com/tu-usuario/e-commerce-frontend.git
-   cd e-commerce-frontend
+   git clone https://github.com/tu-usuario/e-commerce-frontend.git](https://github.com/ajliy97/SoftLicenses-CRUD.git
+   cd frontend
    ```
 
 2. Instala las dependencias:
@@ -52,11 +52,3 @@ Este proyecto es el frontend de una aplicación de comercio electrónico desarro
 - `src/components`: Componentes reutilizables (Tarjeta, CartModal, etc.)
 - `src/services`: Lógica de comunicación con el backend
 - `src/pages`: Vistas principales de la app
-
-## Contribución
-
-Las contribuciones son bienvenidas. Abre un issue o haz un pull request.
-
-## Licencia
-
-MIT
