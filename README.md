@@ -32,23 +32,12 @@ cd SoftLicenses-CRUD
 
 - Requiere Java 17+ y Maven.
 - Configura la base de datos en `backend/src/main/resources/application.properties`.
-- Ejecuta:
 
-```bash
-cd backend
-mvn spring-boot:run
-```
 
 ### 3. Frontend
 
 - Requiere Node.js 18+.
-- Ejecuta:
 
-```bash
-cd frontend
-npm install
-npm run dev
-```
 
 ## Uso
 
