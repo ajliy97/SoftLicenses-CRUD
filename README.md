@@ -1,4 +1,4 @@
-# SoftLicenses-CRUD - Backend
+E-Commerce Backend
 
 Este repositorio contiene el **backend** de la aplicación E-Commerce para la gestión y venta de licencias de software.  
 Desarrollado con **Spring Boot** y **Java**.
