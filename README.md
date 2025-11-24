@@ -1,54 +1,46 @@
-# E-Commerce Frontend
+# SoftLicenses-CRUD - Backend
 
-Este proyecto es el frontend de una aplicación de comercio electrónico desarrollada con React. Permite a los usuarios navegar, agregar productos al carrito, gestionar licencias y realizar compras. Está diseñado para integrarse con un backend en Spring Boot.
+Este repositorio contiene el **backend** de la aplicación E-Commerce para la gestión y venta de licencias de software.  
+Desarrollado con **Spring Boot** y **Java**.
 
 ## Características
 
-- Visualización de productos y detalles
-- Carrito de compras con control de stock
-- Gestión de licencias (admin)
-- Autenticación de usuario
-- Confirmación y pago de pedidos
-- Historial de compras
+- API RESTful para gestión de usuarios, autenticación y licencias.
+- Autenticación y autorización con JWT.
+- Roles de usuario: `admin` y `user`.
+- CRUD completo para licencias de software.
+- Validación de datos y manejo de errores.
+- Integración con base de datos mediante JPA/Hibernate.
 
-## Tecnologías
+## Requisitos
 
-- React
-- Tailwind CSS
-- Axios
-- Context API
+- Java 17 o superior
+- Maven
+- Base de datos (por defecto H2, configurable en `application.properties`)
 
 ## Instalación
 
 1. Clona el repositorio:
-
    ```bash
    git clone https://github.com/ajliy97/SoftLicenses-CRUD.git
-   cd frontend
+   cd SoftLicenses-CRUD/backend
    ```
 
-2. Instala las dependencias:
+2. Configura la base de datos en `src/main/resources/application.properties`.
 
+3. Ejecuta el backend:
    ```bash
-   npm install
+   mvn spring-boot:run
    ```
 
-3. Configura la URL del backend en los servicios (`src/services/`).
+## Endpoints principales
 
-4. Inicia la aplicación:
+- `/api/usuarios` - Gestión de usuarios
+- `/api/v1/auth` - Autenticación y registro
+- `/api/licencias` - CRUD de licencias
 
-   ```bash
-   npm run dev
-   ```
+## Seguridad
 
-## Uso
-
-- Accede a `http://localhost:5173` en tu navegador.
-- Regístrate o inicia sesión para comenzar a comprar.
-- Si eres administrador, puedes editar y eliminar licencias.
-
-## Estructura
-
-- `src/components`: Componentes reutilizables (Tarjeta, CartModal, etc.)
-- `src/services`: Lógica de comunicación con el backend
-- `src/pages`: Vistas principales de la app
+- Autenticación con JWT.
+- Rutas protegidas según rol.
+- Validación de correo único y contraseña segura.
